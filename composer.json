@@ -1,0 +1,23 @@
+{
+    "name": "lsv/nginx-generators",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Aarhof",
+            "email": "martin.aarhof@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lsv\\NginxGenerator\\": "src"
+        }
+    },
+    "require": {
+        "symfony/console": "^3.0",
+        "twig/twig": "^2.2",
+        "symfony/filesystem": "^3.0"
+    },
+    "require-dev": {
+        "symfony/finder": "^3.0"
+    }
+}

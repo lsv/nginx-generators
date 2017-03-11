@@ -1,0 +1,5 @@
+
+    ssl_certificate         {{ ssl_dir }}/fullchain.pem;
+    ssl_certificate_key     {{ ssl_dir }}/privkey.pem;
+    ssl_trusted_certificate {{ ssl_dir }}/chain.pem;
+    include                 ssl/signature.conf;
